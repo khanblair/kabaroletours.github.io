@@ -1,0 +1,63 @@
+
+
+.serv {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+  }
+  
+  hr {
+    width: 50%;
+  }
+
+  .serv1 {
+    padding: 1%;
+    margin: 1%;
+    flex-basis: 50%;
+    max-width: 40%;
+  }
+
+  .serv1 img {
+    width: 100%;
+  }
+  
+  .serv2 {
+    padding: 1%;
+    margin: 1%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .serv2 button {
+    background-color: #126801;
+    color: #ffffff;
+    font-size: 1em;
+    margin-top: 4%;
+    padding: 2% 0 2%;
+    width: 25%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 3px solid #093301;
+  }
+
+  .serv2 button:hover {
+    cursor: pointer;
+    background-color: #cfd2d6;
+    color: #093301;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .serv1,
+    .serv2 {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+
+  #saf {
+    line-height: 2.0;
+  }
+
+
+
+

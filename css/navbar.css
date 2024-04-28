@@ -1,0 +1,259 @@
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    box-sizing: border-box;
+}
+  
+  .navigation-bar-container {
+    background: #0d4901;
+    z-index: 999;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 18vh;
+    padding-top: 13px;
+    position: relative;
+  }
+  
+  .logo-container {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: bold;
+    display: flex;
+    margin-left: -5%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hd1 {
+    margin-top: -7%;
+    color: white;
+    font-size: 1.4em;
+  }
+
+  .logo-container img {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .logo-container a,
+  .logo-container a:visited {
+    color: #105c01;
+    text-decoration: none;
+  }
+  
+  .nav-container {
+    max-width: 1000px;
+    margin: 0px auto;
+  }
+  
+  .navbar {
+    float: right;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    z-index: 9999;
+  }
+  
+  .navbar ul li {
+    float: left;
+    position: relative;
+  }
+  
+  .navbar ul li a,
+  .navbar ul li a:visited {
+    display: block;
+    padding: 0px 20px;
+    line-height: 70px;
+    background: #0d4901;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover, .navbar ul li a:visited:hover {
+    background: #fff;
+    color: #0d4901;
+  }
+  
+  .navbar ul li ul li {
+    min-width: 190px;
+  }
+  
+  .navbar ul li ul li a {
+    padding: 15px;
+    line-height: 20px;
+  }
+  
+  .nav-dropdown {
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+    display: none;
+  }
+  
+  .nav-mobile {
+    position: absolute;
+    float: right;
+    top: 0px;
+    right: 0px;
+    background: #0d4901;
+    height: 70px;
+    width: 70px;
+    display: none;
+  }
+  
+  #nav-toggle {
+    position: absolute;
+    left: 10px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+  }
+  
+  #nav-toggle span,
+  #nav-toggle span:after,
+  #nav-toggle span:before {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+  }
+  
+  #nav-toggle span:after {
+    bottom: -10px;
+  }
+  
+  #nav-toggle span::before {
+    top: -10px;
+  }
+  
+  #nav-toggle.active span {
+    background: transparent;
+  }
+  
+  #nav-toggle.active span:after,
+  #nav-toggle.active span:before {
+    top: 0px;
+  }
+  
+  #nav-toggle.active span:after {
+    transform: rotate(-45deg);
+  }
+  
+  #nav-toggle.active span:before {
+    transform: rotate(45deg);
+  }
+  
+  @media only screen and (max-width: 790px) {
+    .nav-mobile {
+      display: block;
+    }
+    .navbar {
+      width: 100%;
+      padding: 70px 0px 0px;
+    }
+    .navbar ul {
+      display: none;
+    }
+    .navbar ul li {
+      float: none;
+    }
+    .navbar ul li a {
+      padding: 15px;
+      line-height: 20px;
+    }
+    .navbar ul li ul li a {
+      padding-left: 30px;
+    }
+    .nav-dropdown {
+      position: static;
+    }
+    .logo-container {
+      margin-left: 1%;
+      /* font-size: 20px; */
+    }
+    .hd2 img {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .navigation-bar-container {
+      height: 14vh;
+    }
+  }
+  
+  @media screen and (min-width: 799px) {
+    .nav-list {
+      display: block !important;
+    }
+    
+  }
+
+  .but button {
+    background-color: #126801;
+    padding: 1% 0 1%;
+    width: 18%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    border: 3px solid #093301;
+  }
+
+  .but a {
+    color: #ffffff;
+    font-size: 1em;
+    text-decoration: none;
+  }
+
+  .but button:hover {
+    cursor: pointer;
+    background-color: #cfd2d6;
+    color: #093301;
+  }
+
+  .but button:hover a {
+    color: #093301;
+  }
+
+  #col button {
+    background-color: white;
+  }
+
+  #col button a {
+    color: #093301;
+  }
+
+  #col button:hover {
+    background-color: #126801;
+  }
+
+  #col button:hover a {
+    color: #fff;
+  }
+
+  .safa {
+    background-color: green;
+    color: white;
+  }
